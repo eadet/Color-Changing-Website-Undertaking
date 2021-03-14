@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title> Change Color Website </title>
+</head>
+<body id = 'hello'>
+<h1> Changing Color Website Test! </h1>
+<p > Hello! By clicking this button, the Background color will change. Give it a try! </p>
+<button onClick = 'changeColor()'> Click me! </button>
+<script> 
+function changeColor() {
+	document.getElementById('hello').style.backgroundColor = "yellow"
+}
+</script>
+</body>
+</html>
